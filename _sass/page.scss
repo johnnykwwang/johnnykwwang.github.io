@@ -1,0 +1,25 @@
+$color-command: #878D2F;
+
+.h1-prompt{
+  color: $color-bg;
+  background: $color-text;
+  display: inline-block;
+  vertical-align:middle;
+  margin:0px;
+  font-size: 26px;
+  height: 40px;
+  padding: 0px 20px;
+}
+.h1-command{
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 26px;
+}
+.triangle-h1{
+  vertical-align:middle;
+  border-left: 20px solid $color-text;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+

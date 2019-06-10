@@ -6,8 +6,17 @@ $color-text: #FCF6E5;
 $color-bg: #0B2833;
 $color-bar-bg: #103440;
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+
 body{
+  font-family: 'Roboto Mono', monospace;
   background: $color-bg;
+  color: $color-text;
+}
+
+.wrapper-content{
+  border: 1px solid #368586;
 }
 
 .site-header{
