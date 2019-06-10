@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import "layout";
 @import "grid";
 @import "post";
 @import "syntax_highlighting";

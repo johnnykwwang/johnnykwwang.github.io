@@ -1,0 +1,110 @@
+$color-title: #225F84;
+$color-about: #CA6663;
+$color-portfolio: #678563;
+$color-blog: #6687AC;
+$color-text: #FCF6E5;
+$color-bg: #0B2833;
+$color-bar-bg: #103440;
+
+body{
+  background: $color-bg;
+}
+
+.site-header{
+  border-top: 10px solid $color-bg;
+  min-height: 40px;
+  border-bottom: 0px;
+}
+
+
+.wrapper.header-wrapper{
+  max-width: 100%;
+  background: $color-bar-bg;
+  height: 40px;
+  .site-title{
+    background: $color-title;
+    color: $color-text;
+    padding: 0px 20px;
+    display: inline-block;
+    height: 100%;
+    line-height: unset;
+    float: left;
+  }
+}
+
+.site-nav .page-link:not(:last-child) {
+    margin-right: 0px;
+}
+
+.site-nav{
+  line-height:40px;
+}
+
+
+nav.site-nav .page-link{
+  display: inline-block;
+  color: $color-text;
+  height: 40px;
+  font-size:26px;
+  color: $color-text;
+  line-height: 40px;
+  padding: 0px 20px;
+  float:left;
+  &.about{ background: $color-about }
+  &.portfolio{ background: $color-portfolio }
+  &.blog{ background: $color-blog }
+}
+
+
+.triangle{
+  display: inline-block;
+  margin: 0px;
+  height: 0;
+  width: 0;
+}
+
+.triangle-blank-title{
+  float:left;
+  border-left: 20px solid $color-bar-bg;
+  background: $color-title; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.triangle-blank{
+  float:left;
+  border-right: 20px solid $color-bar-bg;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.blank-about{ background: $color-about }
+.blank-portfolio{ background: $color-portfolio }
+.blank-blog{ background: $color-blog }
+
+.triangle-about{
+  float:left;
+  border-right: 20px solid $color-about;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.triangle-portfolio{
+  float:left;
+  border-right: 20px solid $color-portfolio;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.triangle-blog{
+  float:left;
+  border-right: 20px solid $color-blog;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.triangle-title{
+  border-left: 20px solid $color-title;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
