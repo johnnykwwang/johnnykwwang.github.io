@@ -21,13 +21,15 @@
 
         <div class="trigger">
           <div class='triangle triangle-about'></div>
-          <a class="page-link about" href="{{ my_page.url | relative_url }}"> About Me</a>
+          <a class="page-link about" href="{% link index.html %}">Home</a>
           <div class='triangle triangle-blank blank-about'></div>
-          <div class='triangle triangle-portfolio'></div>
-          <a class="page-link portfolio" href="{{ my_page.url | relative_url }}"> Portfolio</a>
-          <div class='triangle triangle-blank blank-portfolio'></div>
+
+          <!-- <div class='triangle triangle-portfolio'></div> -->
+          <!-- <a class="page-link portfolio" href="{{ my_page.url | relative_url }}"> Portfolio</a> -->
+          <!-- <div class='triangle triangle-blank blank-portfolio'></div> -->
+
           <div class='triangle triangle-blog'></div>
-          <a class="page-link blog" href="{{ my_page.url | relative_url }}">Blog</a>
+          <a class="page-link blog" href="{% link _pages/courses.html %}">Blog</a>
           <div class='triangle triangle-blank blank-blog'></div>
           <!-- {%- for path in page_paths -%} -->
             <!-- {%- assign my_page = site.pages | where: "path", path | first -%} -->
