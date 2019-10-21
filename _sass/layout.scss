@@ -17,6 +17,8 @@ body{
 
 .wrapper-content{
   border: 1px solid #368586;
+  width: 1000px;
+  max-width: None;
 }
 
 .wrapper-full{
@@ -28,7 +30,6 @@ body{
   min-height: 40px;
   border-bottom: 0px;
 }
-
 
 .wrapper.header-wrapper{
   max-width: 100%;

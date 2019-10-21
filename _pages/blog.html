@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog
+list_title: Blog
+permalink: /blog/
+---
+{%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li>
+      {% include partials/post_preview_block.html post=post %}
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
