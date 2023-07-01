@@ -2,6 +2,7 @@
 layout: post
 title: "Journey To Manjaro Linux - Part.1"
 date: "2019-10-21 14:15:53 -0400"
+published: false
 categories: [linux]
 ---
 

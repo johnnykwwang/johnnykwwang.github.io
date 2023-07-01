@@ -5,6 +5,7 @@ date: "2019-05-04 21:06:23 -0400"
 categories: [courses]
 tags: [cv]
 mathjax: true
+published: false
 ---
 
 This is a personal note about Computer Vision class, CS5670, in Cornell Tech.
